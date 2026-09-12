@@ -1,0 +1,16 @@
+# Raw CIC-IDS2018 datasets
+*.csv
+
+# Temporary / old models
+temp_*.pkl
+final_nids_model.pkl
+final_nids_features.pkl
+
+# Runtime-generated logs
+nids_alert_log.csv
+
+# Keep research result CSVs
+!reduced_40_feature_correlation_matrix.csv
+!reduced_40_high_correlation_pairs.csv
+!training_feature_correlation_matrix.csv
+!training_feature_correlation_pairs.csv
